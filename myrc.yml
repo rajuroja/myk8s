@@ -6,10 +6,10 @@ spec:
   replicas: 2
   selector:
     app: myjavaapp
-       metadata:
+  template:
+    metadata:
       labels:
-        app: myjavaapp
-       
+        app: myjavaapp       
     spec:
      containers:
      - name: mycontainer
